@@ -53,7 +53,7 @@ bool test(){
         }
         double ratio;
         ratio=((double)timeNormal/CLOCKS_PER_SEC)/((double)timeOptimal/CLOCKS_PER_SEC);
-        fwr<<isPrimeSieve<<'\t'<<isPrime<<'\t'<<ratio<<'\n';
+        if(isPrime){fwr<<isPrimeSieve<<'\t'<<isPrime<<'\t'<<ratio<<'\n';}
         system("CLS");
     }
     return true;
