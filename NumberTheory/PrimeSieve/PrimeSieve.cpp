@@ -60,5 +60,6 @@ bool test(){
 }
 
 int32_t main(){
+    system("CLS");
     cout<<(test()?"All Tests Passed":"Failed");
 }
